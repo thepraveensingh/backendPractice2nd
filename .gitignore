@@ -1,0 +1,30 @@
+# Ignore build directories
+/build/
+/bin/
+/out/
+node_modules/
+# Ignore object files
+*.o
+
+# Ignore compiled binaries
+*.exe
+*.out
+
+# Ignore IDE files (for Visual Studio)
+.vscode/
+*.sln
+*.vcxproj
+*.user
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore CMake files
+CMakeCache.txt
+CMakeFiles/
+Makefile
