@@ -5,7 +5,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/db')
   .catch((err) => console.log("MongoDB not connected", err));
 
 const userSchema = new mongoose.Schema({
-  image: String,
+  imageurl: String,
   email: String,
   name: String
 });
